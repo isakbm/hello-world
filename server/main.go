@@ -11,7 +11,7 @@ func main() {
 
 	fmt.Println("starting server ...")
 
-	lis, err := net.Listen("tcp", ":8080")
+	lis, err := net.Listen("tcp", "0.0.0.0:8080")
 	if err != nil {
 		log.Fatal(err)
 	}
