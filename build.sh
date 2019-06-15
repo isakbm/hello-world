@@ -14,3 +14,5 @@ push() {
 }
 
 push || sudo docker login && push
+
+rm ./server/server
